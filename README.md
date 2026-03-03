@@ -51,8 +51,8 @@ Open `.env` and fill in the required values:
 
 ```env
 BOT_TOKEN=your_bot_token_here
-MAIN_GROUP_ID=-1001234567890
-INTRO_CHANNEL_ID=-1009876543210
+MAIN_GROUP_ID=your_main_group_id (usually looks like /k/#-123456789)
+INTRO_CHANNEL_ID=your_channel__id
 INTRO_CHANNEL_LINK=https://t.me/+your_channel_invite_link
 ```
 
