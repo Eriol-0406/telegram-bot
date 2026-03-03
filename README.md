@@ -1,4 +1,4 @@
-# 🤖 Superteam Onboarding Bot
+# 🤖 telegram Onboarding Bot
 
 A production-ready Telegram bot that improves community quality by requiring new members to introduce themselves before they can participate in the main group.
 
@@ -36,8 +36,8 @@ A production-ready Telegram bot that improves community quality by requiring new
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/your-org/superteam-onboarding-bot.git
-cd superteam-onboarding-bot
+git clone https://github.com/Eriol-0406/telegram-bot.git
+cd telegram-bot
 npm install
 ```
 
@@ -134,7 +134,7 @@ Enable via `HEURISTIC_VALIDATION=true`. When on, the bot checks whether the mess
 | Who you are | "I'm", "I work", "developer", "I build", etc. |
 | Location | "based", "from", city/country names, "KL", etc. |
 | Fun fact | "fun fact", "hobby", "outside", "love", etc. |
-| Contribution | "contribute", "help", "looking to", "superteam", etc. |
+| Contribution | "contribute", "help", "looking to", "telegram", etc. |
 
 If suggestions are given, the member is **still unlocked after 10 minutes** — the heuristic is advisory, never a hard block.
 
@@ -144,7 +144,7 @@ If suggestions are given, the member is **still unlocked after 10 minutes** — 
 • Who are you & what do you do?
 • Where are you based?
 • One fun fact about you
-• How are you looking to contribute to Superteam MY?
+• How are you looking to contribute to telegram MY?
 ```
 
 ---
@@ -152,7 +152,7 @@ If suggestions are given, the member is **still unlocked after 10 minutes** — 
 ## 🏗️ Project Structure
 
 ```
-superteam-onboarding-bot/
+telegram-onboarding-bot/
 ├── src/
 │   ├── index.js                    # Bot entry point & middleware stack
 │   ├── config/
@@ -199,12 +199,12 @@ CMD ["node", "src/index.js"]
 ```
 
 ```bash
-docker build -t superteam-bot .
+docker build -t telegram-bot .
 docker run -d \
   --env-file .env \
   -v $(pwd)/data:/app/data \
-  --name superteam-bot \
-  superteam-bot
+  --name telegram-bot \
+  telegram-bot
 ```
 
 ---
