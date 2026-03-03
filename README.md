@@ -1,4 +1,4 @@
-# 🤖 telegram Onboarding Bot
+# 🤖 Superteam Telegram Onboarding Bot
 
 A production-ready Telegram bot that improves community quality by requiring new members to introduce themselves before they can participate in the main group.
 
